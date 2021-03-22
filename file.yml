@@ -7,12 +7,12 @@
   tasks:
     - name: Create a directory
       file:
-        path: /home/ubuntu/myfolder
+        path: /home/luisgr/myfolder
         state: directory
-        owner: ubuntu
-        group: ubuntu
+        owner: luisgr
+        group: luisgr
 
-    - name: Delete sample-template.bak file
+    - name: touch sample-template.bak file
       file:
-        path: /home/ubuntu/sample-template.bak
+        path: /home/luisgr/sample-template.bak
         state: absent
